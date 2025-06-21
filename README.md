@@ -1,11 +1,17 @@
-## 💡 RL and Markowitz Portfolio Optimization
+## RL and Markowitz Portfolio Optimization
 This project compares Markowitz and Reinforcement Learning based portfolio optimization.
 
 More details can be found in the **"Project_slides.pdf"**
 
+Overall, there are many aspects of this which could be improved on. Working towards a better solution [here](https://github.com/OuJiaPeng/Portfolio-Optimization).
+
+- need to consider drawdown, turnover, and slippage
+- model could use a lot more complexity and factor input
+- just a plethora of issues, will be fixed in new project.
+
 ---
 
-## ✨ Features
+## Features
 - **Classical Markowitz Optimization:** aimed to maximize Sharpe Ratio  
 - **Deep Reinforcement Learning (PPO) Agent:** dynamic Portfolio Allocation, reward is Sharpe based  
 - **Performance Comparison:** Markowitz, RL, and a Naive (equal weights) portfolio  
@@ -13,7 +19,7 @@ More details can be found in the **"Project_slides.pdf"**
 
 ---
 
-## 🗂 Project Structure
+## Project Structure
 
     RL-Markowitz-portfolio-optimization/  
     ├── RL_PPO/                              # Reinforcement Learning (PPO) Module  
@@ -41,53 +47,25 @@ More details can be found in the **"Project_slides.pdf"**
 
 ---
 
-## 🛠️ Setup
-### Clone this repository:
-```bash
-git clone https://github.com/OuJiaPeng/RL-Markowitz-portfolio-optimization.git  
-cd RL-Markowitz-portfolio-optimization
-```
+## Results
 
-Install the required packages:
-```bash
-pip install -r requirements.txt
-```
+| Portfolio         | Annualized Return | Volatility | Sharpe Ratio |
+|------------------|-------------------|------------|--------------|
+| Naive (Equal Wt) | 15.00%            | 10.70%     | 1.40         |
+| Markowitz        | 25.37%            | 10.76%     | 2.36         |
+| RL (PPO Agent)   | 18.99%            | 10.52%     | 1.81         |
+
+Very surprised Markowitz performed this well — it feels like doing the wrong steps and getting the right answer on a test.
 
 ---
 
-## 🚀 How to use
-
-```bash
-# Run the Markowitz optimization (Jupyter Notebook):
-
-jupyter notebook markowitz/markowitz_portfolio.ipynb
-
-# Train the RL agent:
-
-python RL_PPO/RL_portfolio.py
-
-# Evaluate the RL agent:
-
-python RL_PPO/evaluate_RL_portfolio.py
-```
-
----
-
-## 📊 Results
-
-Comparative analysis of Naive, Markowitz, and RL portfolios.
-
-Key metrics: Return, Volatility, Sharpe Ratio.
-
----
-
-## 📝 Future Improvements
+## Future Improvements
 
 Add transaction costs and turnover penalties
 
-Optimize PPO hyperparameters
+Better optimize PPO hyperparameters
 
-Explore advanced models (LSTM, Transformer) for RL.
+Incorporate complexities for RL model
 
 ---
 
