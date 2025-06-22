@@ -35,29 +35,29 @@ Very surprised Markowitz performed this well — it feels like doing the wrong s
 
     RL-Markowitz-portfolio-optimization/
     ├── RL PPO/                                # Reinforcement Learning (PPO) Module
-    │   ├── RL portfolio.py                    # PPO training script
-    │   ├── evaluate RL portfolio.py           # PPO evaluation script
-    │   ├── RL_average_weights_pie.png         # Portfolio weights (average) visualization
-    │   ├── RL_evaluation_summary.txt          # Sharpe, return, volatility summary
-    │   ├── RL_wealth_growth.png               # Portfolio wealth over time (PPO)
-    │   ├── RL_weights_over_time.png           # Weights timeline (PPO)
-    │   └── ppo_portfolio_model_sharpe.zip     # Trained PPO model
+    │   ├── RL portfolio.py
+    │   ├── evaluate RL portfolio.py
+    │   ├── RL_average_weights_pie.png
+    │   ├── RL_evaluation_summary.txt
+    │   ├── RL_wealth_growth.png
+    │   ├── RL_weights_over_time.png
+    │   └── ppo_portfolio_model_sharpe.zip
     │
     ├── markowitz/                             # Classic Markowitz Optimization Module
-    │   ├── markowitz portfolio.ipynb          # Full implementation in notebook
-    │   ├── corr_matrix_etf_train_returns.png  # Correlation heatmap of training set
-    │   ├── markowitz_allocations_pie.png      # Portfolio weights (Markowitz)
-    │   ├── markowitz_evaluation_metrics.txt   # Sharpe, return, volatility summary
-    │   └── markowitz_wealth_growth.png        # Portfolio wealth over time (Markowitz)
+    │   ├── markowitz portfolio.ipynb
+    │   ├── corr_matrix_etf_train_returns.png
+    │   ├── markowitz_allocations_pie.png
+    │   ├── markowitz_evaluation_metrics.txt
+    │   └── markowitz_wealth_growth.png
     │
     ├── naive/                                 # Baseline Equal Weight Portfolio
-    │   ├── naive portfolio.ipynb              # Naive equal-weight implementation
-    │   ├── naive_metrics.txt                  # Evaluation metrics (return, Sharpe)
-    │   └── naive_portfolio_plot.png           # Wealth growth plot (Naive)
+    │   ├── naive portfolio.ipynb
+    │   ├── naive_metrics.txt
+    │   └── naive_portfolio_plot.png
     │
     ├── Project_slides.pdf                     # Presentation summary of project
-    ├── README.md                              # Project overview and documentation
-    ├── requirements.txt                       # Dependencies
+    ├── README.md
+    ├── requirements.txt
 
 ---
 
