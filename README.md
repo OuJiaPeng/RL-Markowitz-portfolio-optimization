@@ -21,29 +21,31 @@ Overall, there are many aspects of this which could be improved on. Working towa
 
 ## Project Structure
 
-    RL-Markowitz-portfolio-optimization/  
-    ├── RL_PPO/                              # Reinforcement Learning (PPO) Module  
-    │   ├── RL_portfolio.py                  # Training Script  
-    │   ├── evaluate_RL_portfolio.py         # Evaluation Script  
-    │   ├── RL_average_weights_pie.png       # Results (Visuals & Metrics)  
-    │   ├── RL_weights_over_time.png  
-    │   ├── RL_wealth_growth.png  
-    │   ├── RL_evaluation_summary.txt  
-    │   └── ppo_portfolio_model_sharpe.zip   # Saved Model  
+    RL-Markowitz-portfolio-optimization/
+    ├── RL PPO/                                # Reinforcement Learning (PPO) Module
+    │   ├── RL portfolio.py                    # PPO training script
+    │   ├── evaluate RL portfolio.py           # PPO evaluation script
+    │   ├── RL_average_weights_pie.png         # Portfolio weights (average) visualization
+    │   ├── RL_evaluation_summary.txt          # Sharpe, return, volatility summary
+    │   ├── RL_wealth_growth.png               # Portfolio wealth over time (PPO)
+    │   ├── RL_weights_over_time.png           # Weights timeline (PPO)
+    │   └── ppo_portfolio_model_sharpe.zip     # Trained PPO model
     │
-    ├── markowitz/                           # Markowitz Optimization Module  
-    │   ├── markowitz_portfolio.ipynb        # Jupyter Notebook for Markowitz  
-    │   ├── markowitz_allocations_pie.png    # Results (Visuals & Metrics)  
-    │   ├── markowitz_wealth_growth.png  
-    │   └── markowitz_evaluation_metrics.txt 
-    │  
-    ├── naive/                               # Naive (Baseline) Portfolio  
-    │   ├── naive_portfolio_plot.png         # Results (Visuals & Metrics)  
-    │   └── naive_metrics.txt         
-    │  
-    ├── README.md                            # Project Overview and Guide  
-    ├── requirements.txt                     # Dependency List  
-    └── .gitignore                           # Git Ignore File  
+    ├── markowitz/                             # Classic Markowitz Optimization Module
+    │   ├── markowitz portfolio.ipynb          # Full implementation in notebook
+    │   ├── corr_matrix_etf_train_returns.png  # Correlation heatmap of training set
+    │   ├── markowitz_allocations_pie.png      # Portfolio weights (Markowitz)
+    │   ├── markowitz_evaluation_metrics.txt   # Sharpe, return, volatility summary
+    │   └── markowitz_wealth_growth.png        # Portfolio wealth over time (Markowitz)
+    │
+    ├── naive/                                 # Baseline Equal Weight Portfolio
+    │   ├── naive portfolio.ipynb              # Naive equal-weight implementation
+    │   ├── naive_metrics.txt                  # Evaluation metrics (return, Sharpe)
+    │   └── naive_portfolio_plot.png           # Wealth growth plot (Naive)
+    │
+    ├── Project_slides.pdf                     # Presentation summary of project
+    ├── README.md                              # Project overview and documentation
+    ├── requirements.txt                       # Dependencies
 
 ---
 
