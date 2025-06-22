@@ -11,6 +11,18 @@ Overall, there are many aspects of this which could be improved on. Working towa
 
 ---
 
+## Results
+
+| Portfolio         | Annualized Return | Volatility | Sharpe Ratio |
+|------------------|-------------------|------------|--------------|
+| Naive (Equal Wt) | 15.00%            | 10.70%     | 1.40         |
+| Markowitz        | 25.37%            | 10.76%     | 2.36         |
+| RL (PPO Agent)   | 18.99%            | 10.52%     | 1.81         |
+
+Very surprised Markowitz performed this well — it feels like doing the wrong steps and getting the right answer on a test.
+
+---
+
 ## Features
 - **Classical Markowitz Optimization:** aimed to maximize Sharpe Ratio  
 - **Deep Reinforcement Learning (PPO) Agent:** dynamic Portfolio Allocation, reward is Sharpe based  
@@ -46,18 +58,6 @@ Overall, there are many aspects of this which could be improved on. Working towa
     ├── Project_slides.pdf                     # Presentation summary of project
     ├── README.md                              # Project overview and documentation
     ├── requirements.txt                       # Dependencies
-
----
-
-## Results
-
-| Portfolio         | Annualized Return | Volatility | Sharpe Ratio |
-|------------------|-------------------|------------|--------------|
-| Naive (Equal Wt) | 15.00%            | 10.70%     | 1.40         |
-| Markowitz        | 25.37%            | 10.76%     | 2.36         |
-| RL (PPO Agent)   | 18.99%            | 10.52%     | 1.81         |
-
-Very surprised Markowitz performed this well — it feels like doing the wrong steps and getting the right answer on a test.
 
 ---
 
