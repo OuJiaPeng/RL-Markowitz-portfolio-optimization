@@ -61,11 +61,11 @@ Very surprised Markowitz performed this well — it feels like doing the wrong s
 
 ## Future Improvements
 
-Add transaction costs and turnover penalties
+- Add transaction costs and turnover penalties
 
-Better optimize PPO hyperparameters
+- Better optimize PPO hyperparameters
 
-Incorporate complexities for RL model
+- Incorporate complexities for RL model
 
 ---
 
