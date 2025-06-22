@@ -7,7 +7,7 @@ Overall, there are many aspects of this which could be improved on. Working towa
 
 - need to consider drawdown, turnover, and slippage
 - model could use a lot more complexity and factor input
-- just a plethora of issues, will be fixed in new project.
+- just a handful of issues, will be fixed in new project.
 
 ---
 
