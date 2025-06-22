@@ -5,9 +5,9 @@ More details can be found in the **"Project_slides.pdf"**
 
 Overall, there are many aspects of this which could be improved on. Working towards a better solution [here](https://github.com/OuJiaPeng/Portfolio-Optimization).
 
-- need to consider drawdown, turnover, and slippage
-- model could use a lot more complexity and factor input
-- just a handful of issues, will be fixed in new project.
+- Need to consider drawdown, turnover, and slippage
+- Model could use a lot more complexity and factor input
+- Just a handful of issues, will be fixed in new project.
 
 ---
 
