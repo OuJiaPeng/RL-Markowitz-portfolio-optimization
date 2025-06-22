@@ -19,7 +19,7 @@ Overall, there are many aspects of this which could be improved on. Working towa
 | Markowitz        | 25.37%            | 10.76%     | 2.36         |
 | RL (PPO Agent)   | 18.99%            | 10.52%     | 1.81         |
 
-Very surprised Markowitz performed this well — it feels like doing the wrong steps and getting the right answer on a test.
+Very surprised Markowitz performed this well — it feels like doing the "wrong" steps and getting the right answer on a test.
 
 ---
 
