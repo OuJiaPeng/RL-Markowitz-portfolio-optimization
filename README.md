@@ -15,8 +15,8 @@ Overall, there are many aspects of this which could be improved on. Working towa
 
 | Portfolio         | Annualized Return | Volatility | Sharpe Ratio |
 |------------------|-------------------|------------|--------------|
-| Naive (Equal Wt) | 15.00%            | 10.70%     | 1.40         |
-| Markowitz        | 25.37%            | 10.76%     | 2.36         |
+| Naive (Equal Wt) | 14.11%            | 11.44%     | 1.23         |
+| Markowitz        | 28.76%            | 13.10%     | 2.20         |
 | RL (PPO Agent)   | 18.99%            | 10.52%     | 1.81         |
 
 Very surprised Markowitz performed this well — it feels like doing the "wrong" steps and getting the right answer on a test.
